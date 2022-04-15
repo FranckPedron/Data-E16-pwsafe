@@ -8,3 +8,8 @@ Content-Type:  application/json
 ###
 
 GET http://localhost:3000/password/amour
+
+
+###
+
+DELETE http://localhost:3000/password/amour

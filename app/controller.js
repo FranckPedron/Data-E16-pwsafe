@@ -11,6 +11,11 @@ const controller = {
     async setPassword(req,res,next){
         await dataMapper.setPassword(req.params.key,req.body.password);
         res.json(true);
+    },
+
+    async deletePassword(req,res,next){
+        await dataMapper.deletePassword(req.params.key);
+        res.json(true);
     }
 };
 

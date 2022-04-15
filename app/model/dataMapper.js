@@ -17,6 +17,14 @@ const dataMapper = {
      */
     async setPassword(key,password){
         return await redisClient.set(key,password);
+    },
+
+    /**
+     * Delete password 
+     * @param {*} key 
+     */
+     async deletePassword(key){
+        return await redisClient.del(key);
     }
 };
 

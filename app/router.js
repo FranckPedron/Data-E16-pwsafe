@@ -12,4 +12,10 @@ router.get('/password/:key',controller.getPassword);
  */
 router.put('/password/:key',controller.setPassword);
 
+
+/**
+ * Delete password from key
+ */
+ router.delete('/password/:key',controller.deletePassword);
+
 module.exports = router;
