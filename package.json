@@ -1,0 +1,25 @@
+{
+  "name": "data-e16-pwsafe-franckpedron",
+  "version": "1.0.0",
+  "description": "Redis, on l'aime déjà :heart_eyes: 2 commandes à retenir et on peut déjà l'utiliser, c'est pas chouette ça ? Mettons tout ça en pratique en développant une appli qui retient nos mots de passe pour nous :lock:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Atome/Data-E16-pwsafe-FranckPedron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Atome/Data-E16-pwsafe-FranckPedron/issues"
+  },
+  "homepage": "https://github.com/O-clock-Atome/Data-E16-pwsafe-FranckPedron#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "redis": "^4.0.6"
+  }
+}

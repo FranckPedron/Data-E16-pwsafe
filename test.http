@@ -1,0 +1,10 @@
+PUT http://localhost:3000/password/amour
+Content-Type:  application/json
+
+{
+    "password" : "d4t4forlife"
+}
+
+###
+
+GET http://localhost:3000/password/amour
